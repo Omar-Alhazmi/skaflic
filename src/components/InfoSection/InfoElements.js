@@ -17,9 +17,10 @@ export const InfoContainer2=styled.div`
         margin-bottom: 350px;
         box-shadow: 0px 0px 40px rgb(0 0 0 / 80%);
     background:${({lightBg})=>(lightBg ? '#f9f9f9' : '#010606')};
-
-    @media screen and (max-width:768px){
+    @media screen and (max-width:820px){
         padding:100px 0;
+        margin-bottom: 572px;
+
     }
 `;
 

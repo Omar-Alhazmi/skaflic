@@ -8,6 +8,10 @@ position: fixed;
   width: 100%;
   height: 350px;  
   padding-left: 50px;
+  @media screen and (max-width:820px){
+  height: 572px;
+  padding-left: 0px;
+  }
 `;
 
 export const FooterWrap=styled.div`
