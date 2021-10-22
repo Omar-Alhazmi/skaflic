@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/will-be-define/static/css/main.010d2ff3.chunk.css",
+    "main.js": "/will-be-define/static/js/main.4a5af677.chunk.js",
+    "main.js.map": "/will-be-define/static/js/main.4a5af677.chunk.js.map",
+    "runtime-main.js": "/will-be-define/static/js/runtime-main.5fc4fd4d.js",
+    "runtime-main.js.map": "/will-be-define/static/js/runtime-main.5fc4fd4d.js.map",
+    "static/js/2.d49678db.chunk.js": "/will-be-define/static/js/2.d49678db.chunk.js",
+    "static/js/2.d49678db.chunk.js.map": "/will-be-define/static/js/2.d49678db.chunk.js.map",
+    "static/js/3.c35bd824.chunk.js": "/will-be-define/static/js/3.c35bd824.chunk.js",
+    "static/js/3.c35bd824.chunk.js.map": "/will-be-define/static/js/3.c35bd824.chunk.js.map",
+    "index.html": "/will-be-define/index.html",
+    "static/css/main.010d2ff3.chunk.css.map": "/will-be-define/static/css/main.010d2ff3.chunk.css.map",
+    "static/js/2.d49678db.chunk.js.LICENSE.txt": "/will-be-define/static/js/2.d49678db.chunk.js.LICENSE.txt",
+    "static/media/bitcoin.svg": "/will-be-define/static/media/bitcoin.3176341f.svg",
+    "static/media/crypto.26427d54.svg": "/will-be-define/static/media/crypto.26427d54.svg",
+    "static/media/data.52e8933b.mp4": "/will-be-define/static/media/data.52e8933b.mp4",
+    "static/media/data.f096e041.svg": "/will-be-define/static/media/data.f096e041.svg",
+    "static/media/login.svg": "/will-be-define/static/media/login.d7765b61.svg",
+    "static/media/rev.92bfe67c.svg": "/will-be-define/static/media/rev.92bfe67c.svg",
+    "static/media/trance.svg": "/will-be-define/static/media/trance.89055b6d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5fc4fd4d.js",
+    "static/js/2.d49678db.chunk.js",
+    "static/css/main.010d2ff3.chunk.css",
+    "static/js/main.4a5af677.chunk.js"
+  ]
+}
