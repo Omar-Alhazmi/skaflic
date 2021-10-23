@@ -29,7 +29,7 @@ const onHover=()=>{
       <HeroContent>
         <HeroH1>Always Choose Good</HeroH1>
         <HeroP>
-          We find solutions to everything for you.Build your dreams with us
+          We find solutions for you to Build your dreams with us
         </HeroP>
         <HeroBtnWrapper>
           <Button to="signup" onMouseEnter={onHover}  onMouseLeave={onHover} primary='true' dark='true'  smooth={true} duration={500} spy={true} exact='true' offset={-80}>
