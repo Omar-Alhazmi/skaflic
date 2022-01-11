@@ -9,7 +9,7 @@ position: fixed;
   height: 350px;  
   padding-left: 50px;
   @media screen and (max-width:820px){
-  height: 572px;
+  height: 862px;
   padding-left: 0px;
   }
 `;
@@ -71,7 +71,7 @@ export const FooterLink=styled(Link)`
     font-size:14px;
 
     &:hover {
-        color: #6c64ff;
+        color: #4ec7cc;
         transition:0.3s ease-out;
     }
 `;
@@ -86,7 +86,8 @@ export const SocialMediaWrap=styled.div`
     justify-content:space-between;
     align-items:center;
     max-width:1100px;
-    margin:40px auto 0 auto;
+    margin: -5% auto 0px -19%;
+
 
     @media screen and (max-width:820px){
         flex-direction:column;
@@ -94,17 +95,14 @@ export const SocialMediaWrap=styled.div`
 `;
 
 export const SocialLogo =styled(Link)`
-    color: #fff;
     justify-self:start;
     cursor:pointer;
-    text-decoration:none;
-    font-size:1.5rem;
     display:flex;
     align-items:center;
     margin-bottom:16px;
     font-weight:bold;
     &:hover {
-        color: #6c64ff;
+        color: #4ec7cc;
         transition:0.3s ease-out;
     }
 `;
@@ -125,10 +123,21 @@ export const SocialIconLink=styled.a`
     color: #fff;
     font-size:24px;
     &:hover {
-        color: #6c64ff;
+        color: #4ec7cc;
         transition:0.3s ease-out;
     };
 `;
-export const Logo = styled.img`
-width: 100px;
+export const LogoFooter = styled.img`
+  width: 30vw;
+  height: 25vh;
+  text-decoration: none;
+  @media screen and (max-width: 768px) {
+  width: 75vw;
+  height: 34vh;
+}
+@media screen and (max-width: 540px) {
+    width: 70vw;
+    height: 27vh;
+    margin-left: 16%;
+}
 `

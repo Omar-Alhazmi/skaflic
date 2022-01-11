@@ -11,9 +11,10 @@ import {
   NavItem,
   NavLinks,
   NavBtn,
-  NavBtnLink
+  NavBtnLink,
+  LogoImage
 } from "./NavbarElements";
-
+import Logo from '../../images/mainLogo.png'
 const Navbar = ({ toggle }) => {
 const [scrollNav,setScrollNav]=useState(false)
 
@@ -41,7 +42,7 @@ const toggleHome=()=>{
     <IconContext.Provider value={{color:'#fff'}}>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to="/" onClick={toggleHome}>WillBeDefine</NavLogo>
+          <NavLogo to="/" onClick={toggleHome}><LogoImage src={Logo} alt="Logo"/></NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
@@ -60,7 +61,7 @@ const toggleHome=()=>{
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/signin">Sign In</NavBtnLink>
+            <NavBtnLink to="#">Sign In</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

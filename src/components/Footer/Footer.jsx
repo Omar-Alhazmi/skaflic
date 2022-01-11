@@ -1,13 +1,17 @@
 import React from 'react'
-import * as FooterStyle from './FooterElements';
+import * as FooterStyle from './StyledFooter';
 import { animateScroll as scroll } from 'react-scroll'
 import {
-    FaFacebook,
-    FaInstagram,
     FaLinkedin,
     FaTwitter,
     FaYoutube,
   } from "react-icons/fa";
+  import {
+    BsDiscord,
+    BsTelegram,
+  } from "react-icons/bs";
+import Logo from '../../images/mainLogo.png'
+
 const Footer = () => {
     const toggleHome = () => {
         scroll.scrollToTop();
@@ -46,21 +50,21 @@ const Footer = () => {
                 </FooterStyle.FooterLinksContainer>
                 <FooterStyle.SocialMedia>
           <FooterStyle.SocialMediaWrap>
-            <FooterStyle.SocialLogo to="/" onClick={toggleHome}>WillBeDefine</FooterStyle.SocialLogo>
+            <FooterStyle.SocialLogo to="/" onClick={toggleHome}><FooterStyle.LogoFooter src={Logo} alt="Logo"/></FooterStyle.SocialLogo>
             <FooterStyle.WebsiteRights>
             WillBeDefine © {new Date().getFullYear()} All rights reserved
             </FooterStyle.WebsiteRights>
             <FooterStyle.SocialIcons>
-              <FooterStyle.SocialIconLink href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
-                <FaFacebook />
+              <FooterStyle.SocialIconLink href="https://t.me/skaflicofficial" target="_blank" aria-label="Facebook">
+                <BsTelegram />
               </FooterStyle.SocialIconLink>
-              <FooterStyle.SocialIconLink href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
-                <FaInstagram />
+              <FooterStyle.SocialIconLink href="https://discordapp.com/users/913029021321818153/" target="_blank" aria-label="Instagram">
+                <BsDiscord />
               </FooterStyle.SocialIconLink>
               <FooterStyle.SocialIconLink href="https://www.youtube.com/" target="_blank" aria-label="Youtube">
                 <FaYoutube />
               </FooterStyle.SocialIconLink>
-              <FooterStyle.SocialIconLink href="https://twitter.com/" target="_blank" aria-label="Twitter">
+              <FooterStyle.SocialIconLink href="https://twitter.com/SkaflicOfficial" target="_blank" aria-label="Twitter">
                 <FaTwitter />
               </FooterStyle.SocialIconLink>
               <FooterStyle.SocialIconLink href="https://www.linkedin.com/" target="_blank" aria-label="Linkedin">
