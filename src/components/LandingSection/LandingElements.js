@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
-export const HeroContainer = styled.div`
+export const LandingContainer = styled.div`
   background: #0c0c0c;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@ export const HeroContainer = styled.div`
 }
 `;
 
-export const HeroBg = styled.div`
+export const LandingBg = styled.div`
   position: absolute;
   top: 0;
   right: 0;
@@ -41,8 +41,20 @@ export const VideoBg = styled.video`
   object-fit: cover;
   background: #232a34;
 `;
+export const VideoPlay = styled.video`
+  -o-object-fit: cover;
+  object-fit: cover;
+  background: #232a34;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index:100;
+`;
 
-export const HeroContent = styled.div`
+export const LandingContent = styled.div`
   z-index: 3;
   max-width: 1200px;
   position: absolute;
@@ -52,7 +64,7 @@ export const HeroContent = styled.div`
   align-items: center;
 `;
 
-export const HeroH1 = styled.h1`
+export const LandingH1 = styled.h1`
   color: #fff;
   font-size: 48px;
   text-align: center;
@@ -66,7 +78,7 @@ export const HeroH1 = styled.h1`
   }
 `;
 
-export const HeroP = styled.p`
+export const LandingP = styled.p`
   margin-top: 24px;
   color: #fff;
   font-size: 24px;
@@ -82,7 +94,7 @@ export const HeroP = styled.p`
   }
 `;
 
-export const HeroBtnWrapper = styled.div`
+export const LandingBtnWrapper = styled.div`
   margin-top: 32px;
   display: flex;
   flex-direction: column;
@@ -97,4 +109,25 @@ export const ArrowForward = styled(MdArrowForward)`
 export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
   font-size: 20px;
+`;
+export const LandingButton= styled.button`
+    border-radius:50px;
+    background:${({primary})=>(primary ? '#2283a4' :'#010606')};
+    white-space:nowrap;
+    padding:${({big}) =>(big ? '14px 48px' : '12px 30px')};
+    color:${({dark})=>(dark ? '#fff' :'#fff')};
+    font-size:${({fontBig})=>(fontBig ?'20px' :'16px')};
+    outline:none;
+    border:none;
+    cursor:pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        transition: all 0.2s ease-in-out;
+        color:${({dark})=>(dark ? '#000' :'#000')};
+        background:${({primary})=>(primary ? '#fff':'#2283a4' )}; 
+    };
 `;
