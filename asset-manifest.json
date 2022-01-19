@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/will-be-define/static/css/main.010d2ff3.chunk.css",
-    "main.js": "/will-be-define/static/js/main.d863dfe8.chunk.js",
-    "main.js.map": "/will-be-define/static/js/main.d863dfe8.chunk.js.map",
-    "runtime-main.js": "/will-be-define/static/js/runtime-main.2139fa24.js",
-    "runtime-main.js.map": "/will-be-define/static/js/runtime-main.2139fa24.js.map",
-    "static/js/2.7b32bbde.chunk.js": "/will-be-define/static/js/2.7b32bbde.chunk.js",
-    "static/js/2.7b32bbde.chunk.js.map": "/will-be-define/static/js/2.7b32bbde.chunk.js.map",
-    "static/js/3.31ed05ca.chunk.js": "/will-be-define/static/js/3.31ed05ca.chunk.js",
-    "static/js/3.31ed05ca.chunk.js.map": "/will-be-define/static/js/3.31ed05ca.chunk.js.map",
-    "index.html": "/will-be-define/index.html",
-    "static/css/main.010d2ff3.chunk.css.map": "/will-be-define/static/css/main.010d2ff3.chunk.css.map",
-    "static/js/2.7b32bbde.chunk.js.LICENSE.txt": "/will-be-define/static/js/2.7b32bbde.chunk.js.LICENSE.txt",
-    "static/media/bitcoin.svg": "/will-be-define/static/media/bitcoin.3176341f.svg",
-    "static/media/crypto.26427d54.svg": "/will-be-define/static/media/crypto.26427d54.svg",
-    "static/media/data.52e8933b.mp4": "/will-be-define/static/media/data.52e8933b.mp4",
-    "static/media/data.f096e041.svg": "/will-be-define/static/media/data.f096e041.svg",
-    "static/media/login.svg": "/will-be-define/static/media/login.d7765b61.svg",
-    "static/media/mainLogo.d08a59a3.png": "/will-be-define/static/media/mainLogo.d08a59a3.png",
-    "static/media/rev.92bfe67c.svg": "/will-be-define/static/media/rev.92bfe67c.svg",
-    "static/media/trance.svg": "/will-be-define/static/media/trance.89055b6d.svg"
+    "main.css": "/SKAFLIC/static/css/main.010d2ff3.chunk.css",
+    "main.js": "/SKAFLIC/static/js/main.61d910eb.chunk.js",
+    "main.js.map": "/SKAFLIC/static/js/main.61d910eb.chunk.js.map",
+    "runtime-main.js": "/SKAFLIC/static/js/runtime-main.603c2c96.js",
+    "runtime-main.js.map": "/SKAFLIC/static/js/runtime-main.603c2c96.js.map",
+    "static/js/2.d4e185af.chunk.js": "/SKAFLIC/static/js/2.d4e185af.chunk.js",
+    "static/js/2.d4e185af.chunk.js.map": "/SKAFLIC/static/js/2.d4e185af.chunk.js.map",
+    "static/js/3.f797b4d9.chunk.js": "/SKAFLIC/static/js/3.f797b4d9.chunk.js",
+    "static/js/3.f797b4d9.chunk.js.map": "/SKAFLIC/static/js/3.f797b4d9.chunk.js.map",
+    "index.html": "/SKAFLIC/index.html",
+    "static/css/main.010d2ff3.chunk.css.map": "/SKAFLIC/static/css/main.010d2ff3.chunk.css.map",
+    "static/js/2.d4e185af.chunk.js.LICENSE.txt": "/SKAFLIC/static/js/2.d4e185af.chunk.js.LICENSE.txt",
+    "static/media/bitcoin.svg": "/SKAFLIC/static/media/bitcoin.3176341f.svg",
+    "static/media/crypto.26427d54.svg": "/SKAFLIC/static/media/crypto.26427d54.svg",
+    "static/media/data.52e8933b.mp4": "/SKAFLIC/static/media/data.52e8933b.mp4",
+    "static/media/data.f096e041.svg": "/SKAFLIC/static/media/data.f096e041.svg",
+    "static/media/login.svg": "/SKAFLIC/static/media/login.d7765b61.svg",
+    "static/media/mainLogo.d08a59a3.png": "/SKAFLIC/static/media/mainLogo.d08a59a3.png",
+    "static/media/rev.92bfe67c.svg": "/SKAFLIC/static/media/rev.92bfe67c.svg",
+    "static/media/trance.svg": "/SKAFLIC/static/media/trance.89055b6d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2139fa24.js",
-    "static/js/2.7b32bbde.chunk.js",
+    "static/js/runtime-main.603c2c96.js",
+    "static/js/2.d4e185af.chunk.js",
     "static/css/main.010d2ff3.chunk.css",
-    "static/js/main.d863dfe8.chunk.js"
+    "static/js/main.61d910eb.chunk.js"
   ]
 }
