@@ -1,31 +1,33 @@
 import React from 'react';
-import Icon1 from '../../images/crypto.svg';
-import Icon2 from '../../images/data.svg';
-import Icon3 from '../../images/rev.svg';
-import { ServicesContainer,ServicesH1,ServicesWrapper,ServicesCard,ServicesIcon,ServicesH2,ServicesP } from "./ServicesElements";
-
+import * as ServicesElements from "./ServicesElements";
 const Services = () => {
     return (
-        <ServicesContainer id="services">
-            <ServicesH1>Our Services</ServicesH1>
-            <ServicesWrapper>
-                <ServicesCard>
-                    <ServicesIcon src={Icon1}/>
-                    <ServicesH2>Reduce Expense</ServicesH2>
-                    <ServicesP>We help reduce your fees and increase your overall revenue.</ServicesP>
-                </ServicesCard>
-                <ServicesCard>
-                    <ServicesIcon src={Icon2}/>
-                    <ServicesH2>Virtual Offices</ServicesH2>
-                    <ServicesP>You can acess our platform online anywhere in the world.</ServicesP>
-                </ServicesCard>
-                <ServicesCard>
-                    <ServicesIcon src={Icon3}/>
-                    <ServicesH2>Premium Benefits</ServicesH2>
-                    <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
-                </ServicesCard>
-            </ServicesWrapper>
-        </ServicesContainer>
+        <ServicesElements.ServicesContainer id="team">
+            <ServicesElements.ServicesH1>Our Team</ServicesElements.ServicesH1>
+            <ServicesElements.CardWrapper>
+                <ServicesElements.ServicesCard>
+                    <ServicesElements.ServicesIcon />
+                    <ServicesElements.ContentWrapper>
+                    <ServicesElements.ServicesH2>Reduce Expense</ServicesElements.ServicesH2>
+                    <ServicesElements.ServicesP>We help reduce your fees and increase your overall revenue.</ServicesElements.ServicesP>
+                    </ServicesElements.ContentWrapper>
+                </ServicesElements.ServicesCard>
+                <ServicesElements.ServicesCard>
+                    <ServicesElements.ServicesIcon/>
+                    <ServicesElements.ContentWrapper>
+                    <ServicesElements.ServicesH2>Virtual Offices</ServicesElements.ServicesH2>
+                    <ServicesElements.ServicesP>You can acess our platform online anywhere in the world.</ServicesElements.ServicesP>
+                    </ServicesElements.ContentWrapper>
+                </ServicesElements.ServicesCard>
+                <ServicesElements.ServicesCard>
+                    <ServicesElements.ServicesIcon />
+                    <ServicesElements.ContentWrapper>
+                    <ServicesElements.ServicesH2>Premium Benefits</ServicesElements.ServicesH2>
+                    <ServicesElements.ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesElements.ServicesP>
+                    </ServicesElements.ContentWrapper>
+                </ServicesElements.ServicesCard>
+    </ServicesElements.CardWrapper>
+        </ServicesElements.ServicesContainer>
     )
 }
 

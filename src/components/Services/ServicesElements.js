@@ -18,7 +18,7 @@ export const ServicesContainer=styled.div`
     }
 `;
 
-export const ServicesWrapper=styled.div`
+export const CardWrapper=styled.div`
     max-width:1000px;
     margin:0 auto;
     display:grid;
