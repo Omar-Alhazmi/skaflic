@@ -5,7 +5,7 @@ import Home from "./RoutingController";
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/skaflic">
       <Switch>
         <Route path="/" component={Home} exact />
       </Switch>
