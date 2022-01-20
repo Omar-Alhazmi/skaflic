@@ -23,11 +23,11 @@ const Footer = () => {
                 <FooterStyle.FooterLinksContainer>
                     <FooterStyle.FooterLinksWrapper>
                     <FooterStyle.FooterLinkItems>
-              <FooterStyle.FooterLinkTitle>About Us </FooterStyle.FooterLinkTitle>
-              <FooterStyle.FooterLink to="/">How It Works</FooterStyle.FooterLink>
-              <FooterStyle.FooterLink to="/">Testimonials</FooterStyle.FooterLink>
-              <FooterStyle.FooterLink to="/">Careers</FooterStyle.FooterLink>
-              <FooterStyle.FooterLink to="/">Investors</FooterStyle.FooterLink>
+              <FooterStyle.FooterLinkTitle>About</FooterStyle.FooterLinkTitle>
+              <FooterStyle.FooterLink to="/">Our base of operations</FooterStyle.FooterLink>
+              <FooterStyle.FooterLink to="/">Buraidah, Al Qassim, Saudi Arabia</FooterStyle.FooterLink>
+              <FooterStyle.FooterLink to="/">Our company mission</FooterStyle.FooterLink>
+              <FooterStyle.FooterLink to="/">To ensure stability, access and, opportunity to all investors.</FooterStyle.FooterLink>
               <FooterStyle.FooterLink to="/">Terms of Service</FooterStyle.FooterLink>
             </FooterStyle.FooterLinkItems>
             <FooterStyle.FooterLinkItems>
@@ -41,10 +41,10 @@ const Footer = () => {
           <FooterStyle.FooterLinksWrapper>
             <FooterStyle.FooterLinkItems>
               <FooterStyle.FooterLinkTitle>Social Media </FooterStyle.FooterLinkTitle>
-              <FooterStyle.FooterLink to="/">Instagram</FooterStyle.FooterLink>
-              <FooterStyle.FooterLink to="/">Facebook</FooterStyle.FooterLink>
-              <FooterStyle.FooterLink to="/">Youtube </FooterStyle.FooterLink>
-              <FooterStyle.FooterLink to="/">Twitter</FooterStyle.FooterLink>
+              <FooterStyle.FooterLinkSocial target="_blank"  to="https://t.me/skaflicofficial">Telegram</FooterStyle.FooterLinkSocial>
+              <FooterStyle.FooterLinkSocial target="_blank"  to="https://discordapp.com/users/913029021321818153/">Discord</FooterStyle.FooterLinkSocial>
+              <FooterStyle.FooterLinkSocial target="_blank"  to="https://www.youtube.com/">Youtube </FooterStyle.FooterLinkSocial>
+              <FooterStyle.FooterLinkSocial target="_blank"  to="https://twitter.com/SkaflicOfficial">Twitter</FooterStyle.FooterLinkSocial>
             </FooterStyle.FooterLinkItems>
                     </FooterStyle.FooterLinksWrapper>
                 </FooterStyle.FooterLinksContainer>
@@ -52,7 +52,7 @@ const Footer = () => {
           <FooterStyle.SocialMediaWrap>
             <FooterStyle.SocialLogo to="/" onClick={toggleHome}><FooterStyle.LogoFooter src={Logo} alt="Logo"/></FooterStyle.SocialLogo>
             <FooterStyle.WebsiteRights>
-            WillBeDefine © {new Date().getFullYear()} All rights reserved
+            SKAFLIC © {new Date().getFullYear()} All rights reserved
             </FooterStyle.WebsiteRights>
             <FooterStyle.SocialIcons>
               <FooterStyle.SocialIconLink href="https://t.me/skaflicofficial" target="_blank" aria-label="Facebook">

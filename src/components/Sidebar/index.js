@@ -9,6 +9,7 @@ import {
   SideBtnWrap,
   SidebarRoute,
 } from "./SidebarElements";
+import ECM_TOKEN from '../../Fils/ECM_TOKEN.pdf';
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
@@ -18,21 +19,24 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>
-            About
+          <SidebarLink to="what_we_fix" onClick={toggle}>
+            What we fix
           </SidebarLink>
-          <SidebarLink to="discover" onClick={toggle}>
-            Discover
+          <SidebarLink to="road_map" onClick={toggle}>
+            Road Map
           </SidebarLink>
-          <SidebarLink to="services" onClick={toggle}>
-            Services
+          <SidebarLink to="team" onClick={toggle}>
+            Team
           </SidebarLink>
-          <SidebarLink to="signup" onClick={toggle}>
-            Sign Up
+          <SidebarLink to="token_and_contract" onClick={toggle}>
+            Token and contract
+          </SidebarLink>
+          <SidebarLink to="ico" onClick={toggle}>
+            ICO
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="#">Sign In</SidebarRoute>
+          <SidebarRoute href={ECM_TOKEN} download>White paper</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

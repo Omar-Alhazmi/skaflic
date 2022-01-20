@@ -17,7 +17,17 @@ export const InfoContainer2=styled.div`
         margin-bottom: 350px;
         box-shadow: 0px 0px 40px rgb(0 0 0 / 80%);
     background:${({lightBg})=>(lightBg ? '#f9f9f9' : '#27323c')};
-    @media screen and (max-width:820px){
+    :before{
+   content:'';
+   position:absolute;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   background:linear-gradient(180deg ,rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.6) 100%),linear-gradient(180deg ,rgba(0,0,0,0.2) 0%,transparent 100%);
+   z-index:2;
+}
+    @media screen and (max-width:1024px){
         padding:100px 0;
         margin-bottom: 862px;
 
@@ -35,6 +45,9 @@ export const InfoWrapper=styled.div`
     margin-left:auto;
     padding:0 24px;
     justify-content:center;
+    position: relative;
+    min-height: 860px;
+ 
 `;
 
 
