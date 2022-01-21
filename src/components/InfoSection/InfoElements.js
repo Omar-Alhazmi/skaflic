@@ -5,7 +5,6 @@ export const InfoContainer=styled.div`
     z-index:1;
     position: relative;
     background:${({lightBg})=>(lightBg ? '#f9f9f9' : '#27323c')};
-
     @media screen and (max-width:768px){
         padding:100px 0;
     }
@@ -38,7 +37,7 @@ export const InfoContainer2=styled.div`
 export const InfoWrapper=styled.div`
     display:grid;
     z-index: 1;
-    height:860px ;
+    height:fit-content ;
     width:100% ;
     max-width:1100px;
     margin-right:auto;
@@ -46,19 +45,19 @@ export const InfoWrapper=styled.div`
     padding:0 24px;
     justify-content:center;
     position: relative;
-    min-height: 860px;
- 
+    min-height: 1100px;
 `;
 
 
 export const InfoRow=styled.div`
     display: grid;
-    grid-auto-columns:minmax(auto ,1fr);
+    grid-auto-columns:${({imgStart})=>(imgStart ? `30% 70%`:`minmax(auto ,1fr)`)};
     align-items:center;
     grid-template-areas:${({imgStart})=>(imgStart ? `'col2 col1'`:`'col1 col2'`)};
 
     @media screen and (max-width:768px){
         grid-template-areas:${({imgStart})=>(imgStart ? `'col1' 'col2'`:`'col1 col1''col2 col2'`)};
+        grid-auto-columns:minmax(auto ,1fr)
     }
 `;
 
@@ -103,7 +102,8 @@ export const Heading =styled.h1`
 `;
 
 export const Subtitle=styled.p`
-    max-width:440px;
+    /* max-width:440px; */
+    max-width: 517px;
     margin-bottom:35px;
     font-size:18px;
     line-height:24px;

@@ -5,12 +5,12 @@ import InfoSection from "../components/InfoSection";
 import { section_1, 
   // section_2,
    //section_3,
-   section_4 } from "../components/InfoSection/Data";
+   section_4,section_5 } from "../components/InfoSection/Data";
 import RoadMapSection from '../components/RoadMapSection';
 import Navbar from "../components/Navbar";
 import Services from "../components/Services";
 import Sidebar from "../components/Sidebar";
-import TokenAndContract from '../components/TokenAndContract';
+// import TokenAndContract from '../components/TokenAndContract';
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -25,8 +25,10 @@ const Home = () => {
       <InfoSection {...section_1}/>
       <RoadMapSection/>
       <Services/>
-      <TokenAndContract/>
+      {/* <TokenAndContract/> */}
       <InfoSection {...section_4}/>
+      <InfoSection {...section_5}/>
+
       <Footer/>
     </>
   );

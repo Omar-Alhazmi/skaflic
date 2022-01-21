@@ -34,7 +34,9 @@ export const TableHedContainer = styled.thead`
         width: 50%;
 `
 export const TableBodyContainer = styled.tbody`
-    display: block;
+        height: 100%;
+    margin:auto;
+    display: grid;
     width: 50%;
     position: relative;
     overflow-x: auto;
@@ -58,11 +60,11 @@ export const TableTd = styled.td`
         height: 60px;
         vertical-align: middle;
         box-sizing: border-box;
-        overflow-x: hidden;
-        overflow-y: auto;
+        /* overflow-x: hidden;
+        overflow-y: auto; */
         /* width: 100%; */
         font-size: 13px;
-        text-overflow: ellipsis;
+        /* text-overflow: ellipsis; */
         display: block;
         &:nth-child(odd) {
             background: #F8F8F8;
