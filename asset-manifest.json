@@ -1,30 +1,32 @@
 {
   "files": {
     "main.css": "/skaflic/static/css/main.0057aff9.chunk.css",
-    "main.js": "/skaflic/static/js/main.cdf079d3.chunk.js",
-    "main.js.map": "/skaflic/static/js/main.cdf079d3.chunk.js.map",
-    "runtime-main.js": "/skaflic/static/js/runtime-main.ed2f6900.js",
-    "runtime-main.js.map": "/skaflic/static/js/runtime-main.ed2f6900.js.map",
+    "main.js": "/skaflic/static/js/main.510b7c08.chunk.js",
+    "main.js.map": "/skaflic/static/js/main.510b7c08.chunk.js.map",
+    "runtime-main.js": "/skaflic/static/js/runtime-main.5c9e9a87.js",
+    "runtime-main.js.map": "/skaflic/static/js/runtime-main.5c9e9a87.js.map",
     "static/css/2.2e99a83d.chunk.css": "/skaflic/static/css/2.2e99a83d.chunk.css",
-    "static/js/2.bd55a1b5.chunk.js": "/skaflic/static/js/2.bd55a1b5.chunk.js",
-    "static/js/2.bd55a1b5.chunk.js.map": "/skaflic/static/js/2.bd55a1b5.chunk.js.map",
-    "static/js/3.e32d09fa.chunk.js": "/skaflic/static/js/3.e32d09fa.chunk.js",
-    "static/js/3.e32d09fa.chunk.js.map": "/skaflic/static/js/3.e32d09fa.chunk.js.map",
+    "static/js/2.c84e3c28.chunk.js": "/skaflic/static/js/2.c84e3c28.chunk.js",
+    "static/js/2.c84e3c28.chunk.js.map": "/skaflic/static/js/2.c84e3c28.chunk.js.map",
+    "static/js/3.47172539.chunk.js": "/skaflic/static/js/3.47172539.chunk.js",
+    "static/js/3.47172539.chunk.js.map": "/skaflic/static/js/3.47172539.chunk.js.map",
     "index.html": "/skaflic/index.html",
     "static/css/2.2e99a83d.chunk.css.map": "/skaflic/static/css/2.2e99a83d.chunk.css.map",
     "static/css/main.0057aff9.chunk.css.map": "/skaflic/static/css/main.0057aff9.chunk.css.map",
-    "static/js/2.bd55a1b5.chunk.js.LICENSE.txt": "/skaflic/static/js/2.bd55a1b5.chunk.js.LICENSE.txt",
+    "static/js/2.c84e3c28.chunk.js.LICENSE.txt": "/skaflic/static/js/2.c84e3c28.chunk.js.LICENSE.txt",
     "static/media/ECM_TOKEN.7427074d.pdf": "/skaflic/static/media/ECM_TOKEN.7427074d.pdf",
+    "static/media/avatar.4357f556.svg": "/skaflic/static/media/avatar.4357f556.svg",
+    "static/media/contract.svg": "/skaflic/static/media/contract.8e871bff.svg",
     "static/media/data.52e8933b.mp4": "/skaflic/static/media/data.52e8933b.mp4",
     "static/media/mainLogo.d08a59a3.png": "/skaflic/static/media/mainLogo.d08a59a3.png",
     "static/media/soon.svg": "/skaflic/static/media/soon.c18f7c5f.svg",
     "static/media/whatWeFix .svg": "/skaflic/static/media/whatWeFix .e7ed49b2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed2f6900.js",
+    "static/js/runtime-main.5c9e9a87.js",
     "static/css/2.2e99a83d.chunk.css",
-    "static/js/2.bd55a1b5.chunk.js",
+    "static/js/2.c84e3c28.chunk.js",
     "static/css/main.0057aff9.chunk.css",
-    "static/js/main.cdf079d3.chunk.js"
+    "static/js/main.510b7c08.chunk.js"
   ]
 }
