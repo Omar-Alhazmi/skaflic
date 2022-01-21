@@ -24,16 +24,7 @@ const Services = () => {
                     <ServicesH2>Name</ServicesH2>
                     <ServicesP>Description...</ServicesP>
                 </ServicesCard>
-                <ServicesCard darkBg>
-                    <ServicesIcon src={Icon1}/>
-                    <ServicesH2>Name</ServicesH2>
-                    <ServicesP>Description...</ServicesP>
-                </ServicesCard>
-                <ServicesCard darkBg>
-                    <ServicesIcon src={Icon1}/>
-                    <ServicesH2>Name</ServicesH2>
-                    <ServicesP>Description...</ServicesP>
-                </ServicesCard>
+          
             </ServicesWrapper>
         </ServicesContainer>
     )
