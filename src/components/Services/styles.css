@@ -1,50 +1,89 @@
 .swiper {
-    width: 300px;
-    height:56vh;
-    margin: 15px 0;
-        /* position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -150px;
-    margin-top: -150px; */
-  }
-  
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height:56vh;
-  }
- 
-  .swiper-slide .title {
-    font-size: 35px;
-    font-weight: 300;
-    /* z-index: 25;
-    margin-top: 45vh;
-    display: block;
-    position: absolute;
-    background: azure;
-    padding: 10px; */
-  }
-  .textContainer{
-    margin-top: 41vh;
-    display: block;
-    position: absolute;
-    background: azure;
-    padding: 10px;
-  }
-  .swiper-slide .subtitle {
-    font-size: 21px;
+  width: 300px;
+  height: 56vh;
+  margin: 15px 0;
+  border-radius: 15px;
+  background: white;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  transition: 0.4s ease-out;
 
-  }
-  
-  .swiper-slide .text {
-    font-size: 14px;
-    max-width: 400px;
-    line-height: 1.3;
-  }
-  
+}
+
+.swiper:hover:before {
+  opacity: 1;
+}
+
+.swiper:hover .info {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.swiper .info {
+  position: relative;
+  z-index: 3;
+  color: white;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: 0.5s;
+  padding: 1.5rem;
+}
+
+.swiper .info h1 {
+  margin: 0px;
+}
+
+.swiper .info p {
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+}
+
+.swiper-slide .title {
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.textContainer {
+  margin-top: 41vh;
+  display: block;
+  position: absolute;
+  background: azure;
+  padding: 10px;
+  z-index: 2;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}

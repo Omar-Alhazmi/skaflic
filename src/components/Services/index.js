@@ -14,17 +14,22 @@ const Services = () => {
                 <ServicesCard darkBg>
                     <ServicesIcon src={Icon1} />
                     <ServicesH2>Name</ServicesH2>
-                    <ServicesP>Description...Description...Description...</ServicesP>
+                    <ServicesP>Description... Description... Description...</ServicesP>
                 </ServicesCard>
                 <ServicesCard darkBg>
                     <ServicesIcon src={Icon1} />
                     <ServicesH2>Name</ServicesH2>
-                    <ServicesP>Description...</ServicesP>
+                    <ServicesP>Description... Description... Description...</ServicesP>
                 </ServicesCard>
                 <ServicesCard darkBg>
                     <ServicesIcon src={Icon1} />
                     <ServicesH2>Name</ServicesH2>
-                    <ServicesP>Description...</ServicesP>
+                    <ServicesP>Description... Description... Description...</ServicesP>
+                </ServicesCard>
+                <ServicesCard darkBg>
+                    <ServicesIcon src={Icon1} />
+                    <ServicesH2>Name</ServicesH2>
+                    <ServicesP>Description... Description... Description...</ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>

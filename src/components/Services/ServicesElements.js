@@ -18,20 +18,22 @@ export const ServicesContainer=styled.div`
 `;
 
 export const ServicesWrapper=styled.div`
-    max-width:1000px;
+    /* max-width:1000px;
     margin:0 auto;
     display:grid;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr; */
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 1fr;
     align-items:center;
     grid-gap:16px;
     padding:0 50px;
     margin-bottom: 20px;
     @media screen and (max-width:1000px){
-        grid-template-columns:1fr 1fr;
+        /* grid-template-columns:1fr 1fr; */
     }
-    @media screen and (max-width:768px){
-        grid-template-columns:1fr ;
-        padding:0 20px;
+    @media screen and (max-width:299px){
+        padding: 0 11px;
     }
 `;
 
@@ -52,11 +54,14 @@ export const ServicesCard=styled.div`
         transition:all 0.2s ease-in-out;
         cursor:pointer;
     }
+    @media screen and (max-width:299px){
+        padding: 0;
+    }
 `;
 
 export const ServicesIcon=styled.img`
-    height: 111px;
-    width: 118px;
+    height: 99px;
+    width: 100px;
     margin-bottom:10px;
 `;
 
