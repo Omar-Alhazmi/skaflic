@@ -34,11 +34,16 @@ export const NavLogo = styled(LinkR)`
   display: flex;
   align-items: center; 
   @media screen and (min-width: 1400px) {
-    margin-left: -25%;
+    margin-left: -23.5%;
   }
   @media screen and (max-width: 1156px) {
-    margin-left: -7%;
+   margin-left: -12.5%;;
   }
+  //iPad Pro view
+  @media screen and (max-width: 1024px) {
+  margin-left: -8.5%;
+  }
+  
   margin-left: -11%;
 `;
 export const LogoImage = styled.img`
@@ -53,6 +58,9 @@ export const LogoImage = styled.img`
 }
 @media screen and (max-width: 720px) {
   height: 24vh;
+}
+@media screen and (max-width: 430px) {
+  margin-left: -23%;
 }
 `;
 export const MobileIcon = styled.div`

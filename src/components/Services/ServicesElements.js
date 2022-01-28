@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 
 export const ServicesContainer=styled.div`
-    height:847px ;
+    height:fit-content ;
+    flex-direction: column;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -36,28 +37,16 @@ export const ServicesWrapper=styled.div`
 
 export const ServicesCard=styled.div`
     background:${({darkBg})=>(darkBg ? '#f9f9f9' : '#282c34')};
-    height: 335px;
+    height: 300px;
     flex-direction:column;
     justify-content:flex-start;
     align-items:center;
     border-radius:10px ;
     max-height: 366px;
-    padding:30px;
+    padding:17px;
     box-shadow:0 1px 3px rgba(0,0,0,0.2);
     transition:all 0.2s ease-in-out;
-    :before {
-        content: '';
-    position: absolute;
-    width: initial;
-    height: auto;
-    background: linear-gradient(
-180deg ,rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.6) 100%),linear-gradient(
-180deg ,rgba(0,0,0,0.2) 0%,transparent 100%);
-    z-index: 2;
-    /* margin: inherit; */
-    padding: 110px;
-    margin: -30px;
-}
+
     &:hover{
         transform:scale(1.02);
         transition:all 0.2s ease-in-out;
@@ -66,8 +55,8 @@ export const ServicesCard=styled.div`
 `;
 
 export const ServicesIcon=styled.img`
-    height: 160px;
-    width: 160px;
+    height: 111px;
+    width: 118px;
     margin-bottom:10px;
 `;
 

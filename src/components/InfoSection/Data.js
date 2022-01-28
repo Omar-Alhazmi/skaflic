@@ -47,19 +47,19 @@ const tokenAndContract =
 
 export const section_1 = {
     id: 'what_we_fix',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     headline: 'What we fix?',
     description: des,
     imgStart: false,
     img: require('../../images/whatWeFix .svg').default,
     alt: 'Car',
-    darkText: false,
+    darkText: true,
 };
 export const section_4 = {
     id: 'token_and_contract',
-    lightBg:true,
+    lightBg:true,  
     lightText:false,
     lightTextDesc:false,
     // topLine:'Why is Inventory so Important?',
@@ -74,9 +74,9 @@ export const section_4 = {
 };
 export const section_5 = {
     id: 'ico',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     headline: 'Soon...',
     imgStart: false,
     img: require("../../images/soon.svg").default,
