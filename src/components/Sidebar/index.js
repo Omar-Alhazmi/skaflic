@@ -20,7 +20,7 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink to="what_we_fix" onClick={toggle}>
-            What we fix
+          Skaflic Activity
           </SidebarLink>
           <SidebarLink to="road_map" onClick={toggle}>
             Road Map
