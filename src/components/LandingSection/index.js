@@ -20,9 +20,6 @@ const LandingSection = () => {
   //   }, 60000);
   // }
   return (
-    // <LandingElements.LandingContainer id="home">
-    //   <LandingElements.LandingContent>
-    //     <LandingElements.LandingWrapper>
     <Container.InfoContainer  id="home">
     <Container.InfoWrapper>
           <Container.InfoRow>
