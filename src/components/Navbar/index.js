@@ -50,7 +50,7 @@ const toggleHome=()=>{
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="what_we_fix" smooth={true} duration={500} spy={true} exact='true' offset={-80}>What we fix</NavLinks>
+              <NavLinks to="what_we_fix" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Skaflic Activity</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="road_map" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Road Map</NavLinks>

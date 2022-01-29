@@ -9,6 +9,71 @@ export const InfoContainer=styled.div`
         padding:100px 0;
     }
 `;
+export const ActivityContainer = styled.div`
+    display: flex;
+    flex-flow: column wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    height:fit-content ;
+    max-width:1100px;
+    min-height: 1100px;
+    z-index: 1;
+    @media screen and (min-width:768px){
+    flex-direction: row;
+    align-items: flex-start;
+}`;
+export const OneActivityContainer=styled.div`
+  display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 26px;
+    max-width: 360px;
+    text-align: center;
+    flex-basis: 33%;
+    /* @media screen and (min-width:768px){
+    flex-direction: row;
+    align-items: flex-start;
+} */
+`
+export const IconContainer =styled.div`
+    margin-bottom:14px;
+@media screen and (max-width:768px){
+    margin-bottom:18px;
+    }
+`
+export const SectionTitle =styled.h1`
+    margin:14px auto;
+    color:#000;
+    text-align:center;
+@media screen and (max-width:768px){
+    margin-bottom:18px;
+    }
+`
+export const CardTitle =styled.h3`
+    margin-bottom:14px;
+    color:#000;
+@media screen and (max-width:768px){
+    margin-bottom:18px;
+    }
+`
+export const CardParagraph =styled.p`
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 28px;
+    width: 100%;
+    color:#000;
+
+@media screen and (max-width:768px){
+    font-size: 16px;
+    line-height: 24px;
+    }
+`
 export const InfoContainer2=styled.div`
     color: #fff;
     z-index:1;

@@ -1,21 +1,48 @@
 import * as StyledTable from './StyledTabled.js'
+import * as InfoElements from "./InfoElements";
+import { BsCurrencyExchange} from "react-icons/bs";
+import { GiShoppingCart} from "react-icons/gi";
+import { RiExchangeFundsLine} from "react-icons/ri";
 
-const des =
-    <>
-        Despite the rapid development in the electronic commerce world,
-        there are still two problems that have not been addressed in classic stores,
-        which moved to electronic stores since the process was only a transition without development
-        on the basic principle (the store), and these problems can be shortened in:
-        <br />
-        <br />
-        <ul>
-            <li>Financing by selling a share of the equity to those who have achieved success</li>
-            <li>Ensuring survival, continuity, and capital preservation</li>
-        </ul>
-        <br />
-        We offer a solution, The equity store.
-        With the store, we are capable of bringing control back in the hands of the investor, small time or otherwise, and help them get the resources need to monitor and ensure their survivability.
-    </>
+ const data =
+ <InfoElements.ActivityContainer> 
+ <InfoElements.OneActivityContainer>
+     <InfoElements.IconContainer>
+    <BsCurrencyExchange  color='rgb(34 131 164)' size='8em'/>
+     </InfoElements.IconContainer>
+     <InfoElements.CardTitle>
+     Exchange platform
+     </InfoElements.CardTitle>
+     <InfoElements.CardParagraph>
+     On the exchange platform users can tread all stoves equity and all major crypto currencies BTC, ETH, BNB, XRP..., moreover
+ users can stake Flic to get rewords and cash out their profit through P2P service or via USDFbuy - back service
+     </InfoElements.CardParagraph>
+ </InfoElements.OneActivityContainer>
+ <InfoElements.OneActivityContainer>
+     <InfoElements.IconContainer>
+     <GiShoppingCart  color='rgb(34 131 164)' size='8em'/>
+     </InfoElements.IconContainer>
+     <InfoElements.CardTitle>
+         Stores Platform
+     </InfoElements.CardTitle>
+     <InfoElements.CardParagraph>
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     </InfoElements.CardParagraph>
+ </InfoElements.OneActivityContainer>
+ <InfoElements.OneActivityContainer>
+     <InfoElements.IconContainer>
+     <RiExchangeFundsLine  color='rgb(34 131 164)' size='8em'/>
+     </InfoElements.IconContainer>
+     <InfoElements.CardTitle>
+         ICOs Platform
+     </InfoElements.CardTitle>
+     <InfoElements.CardParagraph>
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     </InfoElements.CardParagraph>
+ </InfoElements.OneActivityContainer>
+ </InfoElements.ActivityContainer>
 const tokenAndContract =
 <>
         <StyledTable.TableWrapper >
@@ -47,15 +74,10 @@ const tokenAndContract =
 
 export const section_1 = {
     id: 'what_we_fix',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    headline: 'What we fix?',
-    description: des,
-    imgStart: false,
-    img: require('../../images/whatWeFix .svg').default,
-    alt: 'Car',
-    darkText: true,
+    lightBg:true, 
+    cardData: data,
+    lightText:false,
+    lightTextDesc:false,
 };
 export const section_4 = {
     id: 'token_and_contract',
