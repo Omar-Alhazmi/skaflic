@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
-
+import { Link as LinkS } from "react-scroll";
 export const LandingContainer = styled.div`
-  background: #0c0c0c;
+  background: #37474f;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,8 +10,8 @@ export const LandingContainer = styled.div`
   height: 825px;
   position: relative;
   z-index: 1;
-
-  :before{
+  margin:auto;
+  /* :before{
    content:'';
    position:absolute;
    top:0;
@@ -20,9 +20,16 @@ export const LandingContainer = styled.div`
    bottom:0;
    background:linear-gradient(180deg ,rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.6) 100%),linear-gradient(180deg ,rgba(0,0,0,0.2) 0%,transparent 100%);
    z-index:2;
-}
+} */
 `;
+export const LandingVideo=styled.iframe`
+  width:-webkit-fill-available;
+  height:345px;
+  @media screen and (max-width: 100px){
+    width:450px;
+  }
 
+`;
 export const LandingBg = styled.div`
   position: absolute;
   top: 0;
@@ -53,7 +60,19 @@ export const VideoPlay = styled.video`
   height: 100%;
   z-index:100;
 `;
-
+export const LandingWrapper =styled.div`
+  display:grid;
+  z-index: 1;
+  height:fit-content ;
+  width:100% ;
+  max-width:1100px;
+  margin-right:auto;
+  margin-left:auto;
+  padding:0 24px;
+  justify-content:center;
+  position: relative;
+min-height: 1100px;
+`
 export const LandingContent = styled.div`
   z-index: 3;
   max-width: 1200px;
@@ -64,20 +83,36 @@ export const LandingContent = styled.div`
   align-items: center;
 `;
 
-export const LandingH1 = styled.h1`
-  color: #fff;
-  font-size: 48px;
+export const LandingH2 = styled.h2`
+ color:${({isStrong})=>(isStrong ? `rgb(80 198 201)`:`#fff`)};
+  font-size: 32px;
   text-align: center;
-
+  font-family: Montserrat, sans-serif;
+    line-height: 150%;
+    padding: 15px 0px;
+    font-weight: 400;
   @media screen and(max-width:768px) {
-    font-size: 40px;
+    font-size: 28px;
   }
-
   @media screen and(max-width:480px) {
     font-size: 32px;
   }
 `;
-
+export const LandingStrong = styled.strong`
+ color:rgb(80 198 201);
+  font-size: 32px;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+    line-height: 150%;
+    padding: 15px 0px;
+    font-weight: 400;
+  @media screen and(max-width:768px) {
+    font-size: 28px;
+  }
+  @media screen and(max-width:480px) {
+    font-size: 32px;
+  }
+`;
 export const LandingP = styled.p`
   margin-top: 24px;
   color: #fff;
@@ -110,8 +145,10 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
   font-size: 20px;
 `;
-export const LandingButton= styled.button`
+
+export const LandingButton= styled.a`
     border-radius:50px;
+    text-decoration:none;
     background:${({primary})=>(primary ? '#2283a4' :'#010606')};
     white-space:nowrap;
     padding:${({big}) =>(big ? '14px 48px' : '12px 30px')};
@@ -124,7 +161,27 @@ export const LandingButton= styled.button`
     justify-content:center;
     align-items:center;
     transition: all 0.2s ease-in-out;
-
+    &:hover{
+        transition: all 0.2s ease-in-out;
+        color:${({dark})=>(dark ? '#000' :'#000')};
+        background:${({primary})=>(primary ? '#fff':'#2283a4' )}; 
+    };
+`;
+export const LandingButton2= styled(LinkS)`
+    border-radius:50px;
+    text-decoration:none;
+    background:${({primary})=>(primary ? '#2283a4' :'#010606')};
+    white-space:nowrap;
+    padding:${({big}) =>(big ? '14px 48px' : '12px 30px')};
+    color:${({dark})=>(dark ? '#fff' :'#fff')};
+    font-size:${({fontBig})=>(fontBig ?'20px' :'16px')};
+    outline:none;
+    border:none;
+    cursor:pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition: all 0.2s ease-in-out;
     &:hover{
         transition: all 0.2s ease-in-out;
         color:${({dark})=>(dark ? '#000' :'#000')};

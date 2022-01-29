@@ -1,18 +1,18 @@
-import React
-//  ,{ useState }
+import React  ,{ useState }
   from "react";
-import Video from "../../videos/data.mp4";
+// import Video from "../../videos/data.mp4";
 import * as LandingElements from "./LandingElements";
+import * as Container from '../InfoSection/InfoElements.js';
+import ECM_TOKEN from '../../Fils/ECM_TOKEN.pdf';
 
 const LandingSection = () => {
 
-  // const [hover, setHover] = useState(false)
+  const [hover, setHover] = useState(false)
+  const onHover = () => {
+    setHover(!hover)
+  }
 
-  // const onHover = () => {
-  //   setHover(!hover)
-  // }
   // const [Play, setPlay] = useState(true)
-
   // const onPlay = () => {
   //   setPlay(!Play)
   //   setTimeout(() => {
@@ -20,23 +20,50 @@ const LandingSection = () => {
   //   }, 60000);
   // }
   return (
-    <LandingElements.LandingContainer id="home">
-      <LandingElements.LandingBg>
-        <LandingElements.VideoBg autoPlay loop muted src={Video} type="video/mp4" />
-      </LandingElements.LandingBg>
-      <LandingElements.LandingContent>
-      <LandingElements.LandingH1>SKAFLIC</LandingElements.LandingH1>  
-              <LandingElements.LandingP>We are a market for buying and selling equity for electronic stores
-                 through digital currencies in its trading platform. This platform is a 
-                 network-based marketplace that allows users to conduct trades,
-                  browse catalogs of equities from electronic shops, and monitor 
-                  their accounts using blockchain technology.
-                   With our cutting-edge blockchain-based algorithm,
-                    the ECM platform can give a new concept of investing 
-                    that ensures capital preservation while increasing the number of 
-                    growth possibilities available to investors.
-                                              </LandingElements.LandingP>
-        {/* <LandingElements.LandingBtnWrapper>
+    // <LandingElements.LandingContainer id="home">
+    //   <LandingElements.LandingContent>
+    //     <LandingElements.LandingWrapper>
+    <Container.InfoContainer  id="home">
+    <Container.InfoWrapper>
+          <Container.InfoRow>
+            <Container.Column1>
+              <LandingElements.LandingVideo 
+              width="100%" height="315"  
+              src="https://www.youtube.com/embed/dN6-TIOPo3U"
+               title="YouTube video player" frameborder="0" 
+               allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture" 
+               allowFullScreen></LandingElements.LandingVideo>
+            </Container.Column1>
+            <Container.Column2>
+            <LandingElements.LandingH2>What is <LandingElements.LandingStrong> Skaflic? </LandingElements.LandingStrong></LandingElements.LandingH2>
+              <LandingElements.LandingP>Skaflic is the first market in the world for
+                buying and selling equity for E-commerce stores
+                through crypto currencies.
+              </LandingElements.LandingP>
+              <LandingElements.LandingBtnWrapper>
+            <LandingElements.LandingButton
+              onMouseEnter={onHover}
+              onMouseLeave={onHover}
+              primary='true' dark='true'
+               href={ECM_TOKEN} download>
+                White paper
+                {hover ? <LandingElements.ArrowForward /> : <LandingElements.ArrowRight />}{" "}
+                </LandingElements.LandingButton>
+                </LandingElements.LandingBtnWrapper>
+                <LandingElements.LandingBtnWrapper>
+            <LandingElements.LandingButton2
+              onMouseEnter={onHover}
+              onMouseLeave={onHover}
+              primary='true' dark='true'
+              to="road_map" smooth={true} duration={500} spy={true} exact='true' offset={-80}
+               >
+                Road Map
+                {hover ? <LandingElements.ArrowForward /> : <LandingElements.ArrowRight />}{" "}
+                </LandingElements.LandingButton2>
+                </LandingElements.LandingBtnWrapper>
+            </Container.Column2>
+
+            {/* <LandingElements.LandingBtnWrapper>
           {!Play ? <LandingElements.VideoPlay autoPlay controls >
             <source src={Video} type="video/mp4" />
           </LandingElements.VideoPlay> :
@@ -48,8 +75,10 @@ const LandingSection = () => {
               {hover ? <LandingElements.ArrowForward /> : <LandingElements.ArrowRight />}{" "}
             </LandingElements.LandingButton>}
         </LandingElements.LandingBtnWrapper> */}
-      </LandingElements.LandingContent>
-    </LandingElements.LandingContainer>
+          </Container.InfoRow>
+          </Container.InfoWrapper>
+          </Container.InfoContainer>
+        
   );
 };
 
