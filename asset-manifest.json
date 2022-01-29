@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/skaflic/static/css/main.cc3105a3.chunk.css",
-    "main.js": "/skaflic/static/js/main.5c2a35df.chunk.js",
-    "main.js.map": "/skaflic/static/js/main.5c2a35df.chunk.js.map",
+    "main.js": "/skaflic/static/js/main.c24b4b82.chunk.js",
+    "main.js.map": "/skaflic/static/js/main.c24b4b82.chunk.js.map",
     "runtime-main.js": "/skaflic/static/js/runtime-main.eb9bfc47.js",
     "runtime-main.js.map": "/skaflic/static/js/runtime-main.eb9bfc47.js.map",
     "static/css/2.d0627c80.chunk.css": "/skaflic/static/css/2.d0627c80.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.d0627c80.chunk.css",
     "static/js/2.44b82281.chunk.js",
     "static/css/main.cc3105a3.chunk.css",
-    "static/js/main.5c2a35df.chunk.js"
+    "static/js/main.c24b4b82.chunk.js"
   ]
 }
