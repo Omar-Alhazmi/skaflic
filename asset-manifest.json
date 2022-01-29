@@ -1,32 +1,31 @@
 {
   "files": {
     "main.css": "/skaflic/static/css/main.cc3105a3.chunk.css",
-    "main.js": "/skaflic/static/js/main.c940f28d.chunk.js",
-    "main.js.map": "/skaflic/static/js/main.c940f28d.chunk.js.map",
+    "main.js": "/skaflic/static/js/main.5c2a35df.chunk.js",
+    "main.js.map": "/skaflic/static/js/main.5c2a35df.chunk.js.map",
     "runtime-main.js": "/skaflic/static/js/runtime-main.eb9bfc47.js",
     "runtime-main.js.map": "/skaflic/static/js/runtime-main.eb9bfc47.js.map",
     "static/css/2.d0627c80.chunk.css": "/skaflic/static/css/2.d0627c80.chunk.css",
-    "static/js/2.61abe6f2.chunk.js": "/skaflic/static/js/2.61abe6f2.chunk.js",
-    "static/js/2.61abe6f2.chunk.js.map": "/skaflic/static/js/2.61abe6f2.chunk.js.map",
+    "static/js/2.44b82281.chunk.js": "/skaflic/static/js/2.44b82281.chunk.js",
+    "static/js/2.44b82281.chunk.js.map": "/skaflic/static/js/2.44b82281.chunk.js.map",
     "static/js/3.37f229f7.chunk.js": "/skaflic/static/js/3.37f229f7.chunk.js",
     "static/js/3.37f229f7.chunk.js.map": "/skaflic/static/js/3.37f229f7.chunk.js.map",
     "index.html": "/skaflic/index.html",
     "static/css/2.d0627c80.chunk.css.map": "/skaflic/static/css/2.d0627c80.chunk.css.map",
     "static/css/main.cc3105a3.chunk.css.map": "/skaflic/static/css/main.cc3105a3.chunk.css.map",
-    "static/js/2.61abe6f2.chunk.js.LICENSE.txt": "/skaflic/static/js/2.61abe6f2.chunk.js.LICENSE.txt",
+    "static/js/2.44b82281.chunk.js.LICENSE.txt": "/skaflic/static/js/2.44b82281.chunk.js.LICENSE.txt",
     "static/media/ECM_TOKEN.7427074d.pdf": "/skaflic/static/media/ECM_TOKEN.7427074d.pdf",
     "static/media/SnapchatPicture.ab1be6e0.jpg": "/skaflic/static/media/SnapchatPicture.ab1be6e0.jpg",
     "static/media/avatar.4357f556.svg": "/skaflic/static/media/avatar.4357f556.svg",
     "static/media/contract.svg": "/skaflic/static/media/contract.8e871bff.svg",
     "static/media/mainLogo.d08a59a3.png": "/skaflic/static/media/mainLogo.d08a59a3.png",
-    "static/media/soon.svg": "/skaflic/static/media/soon.c18f7c5f.svg",
-    "static/media/whatWeFix .svg": "/skaflic/static/media/whatWeFix .e7ed49b2.svg"
+    "static/media/soon.svg": "/skaflic/static/media/soon.c18f7c5f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.eb9bfc47.js",
     "static/css/2.d0627c80.chunk.css",
-    "static/js/2.61abe6f2.chunk.js",
+    "static/js/2.44b82281.chunk.js",
     "static/css/main.cc3105a3.chunk.css",
-    "static/js/main.c940f28d.chunk.js"
+    "static/js/main.5c2a35df.chunk.js"
   ]
 }
