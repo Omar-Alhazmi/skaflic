@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/skaflic/static/css/main.cc3105a3.chunk.css",
-    "main.js": "/skaflic/static/js/main.c24b4b82.chunk.js",
-    "main.js.map": "/skaflic/static/js/main.c24b4b82.chunk.js.map",
-    "runtime-main.js": "/skaflic/static/js/runtime-main.eb9bfc47.js",
-    "runtime-main.js.map": "/skaflic/static/js/runtime-main.eb9bfc47.js.map",
+    "main.css": "/skaflic/static/css/main.f4463f6e.chunk.css",
+    "main.js": "/skaflic/static/js/main.37406cda.chunk.js",
+    "main.js.map": "/skaflic/static/js/main.37406cda.chunk.js.map",
+    "runtime-main.js": "/skaflic/static/js/runtime-main.e3e62d06.js",
+    "runtime-main.js.map": "/skaflic/static/js/runtime-main.e3e62d06.js.map",
     "static/css/2.d0627c80.chunk.css": "/skaflic/static/css/2.d0627c80.chunk.css",
-    "static/js/2.44b82281.chunk.js": "/skaflic/static/js/2.44b82281.chunk.js",
-    "static/js/2.44b82281.chunk.js.map": "/skaflic/static/js/2.44b82281.chunk.js.map",
-    "static/js/3.37f229f7.chunk.js": "/skaflic/static/js/3.37f229f7.chunk.js",
-    "static/js/3.37f229f7.chunk.js.map": "/skaflic/static/js/3.37f229f7.chunk.js.map",
+    "static/js/2.8e9efd3b.chunk.js": "/skaflic/static/js/2.8e9efd3b.chunk.js",
+    "static/js/2.8e9efd3b.chunk.js.map": "/skaflic/static/js/2.8e9efd3b.chunk.js.map",
+    "static/js/3.b7dd0b6d.chunk.js": "/skaflic/static/js/3.b7dd0b6d.chunk.js",
+    "static/js/3.b7dd0b6d.chunk.js.map": "/skaflic/static/js/3.b7dd0b6d.chunk.js.map",
     "index.html": "/skaflic/index.html",
     "static/css/2.d0627c80.chunk.css.map": "/skaflic/static/css/2.d0627c80.chunk.css.map",
-    "static/css/main.cc3105a3.chunk.css.map": "/skaflic/static/css/main.cc3105a3.chunk.css.map",
-    "static/js/2.44b82281.chunk.js.LICENSE.txt": "/skaflic/static/js/2.44b82281.chunk.js.LICENSE.txt",
+    "static/css/main.f4463f6e.chunk.css.map": "/skaflic/static/css/main.f4463f6e.chunk.css.map",
+    "static/js/2.8e9efd3b.chunk.js.LICENSE.txt": "/skaflic/static/js/2.8e9efd3b.chunk.js.LICENSE.txt",
     "static/media/ECM_TOKEN.7427074d.pdf": "/skaflic/static/media/ECM_TOKEN.7427074d.pdf",
     "static/media/SnapchatPicture.ab1be6e0.jpg": "/skaflic/static/media/SnapchatPicture.ab1be6e0.jpg",
     "static/media/avatar.4357f556.svg": "/skaflic/static/media/avatar.4357f556.svg",
@@ -22,10 +22,10 @@
     "static/media/soon.svg": "/skaflic/static/media/soon.c18f7c5f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.eb9bfc47.js",
+    "static/js/runtime-main.e3e62d06.js",
     "static/css/2.d0627c80.chunk.css",
-    "static/js/2.44b82281.chunk.js",
-    "static/css/main.cc3105a3.chunk.css",
-    "static/js/main.c24b4b82.chunk.js"
+    "static/js/2.8e9efd3b.chunk.js",
+    "static/css/main.f4463f6e.chunk.css",
+    "static/js/main.37406cda.chunk.js"
   ]
 }
