@@ -1,10 +1,15 @@
 import * as StyledTable from './StyledTabled.js'
 import * as InfoElements from "./InfoElements";
-import { BsCurrencyExchange} from "react-icons/bs";
+import { BsCurrencyExchange,BsCoin} from "react-icons/bs";
 import { GiShoppingCart} from "react-icons/gi";
-import { RiExchangeFundsLine} from "react-icons/ri";
+import { RiExchangeFundsLine,RiExchangeDollarLine} from "react-icons/ri";
+import { FaFileContract,FaFileInvoiceDollar,FaWatchmanMonitoring} from "react-icons/fa";
+import { VscLightbulbAutofix} from "react-icons/vsc";
+import { CgListTree} from "react-icons/cg";
+
 
  const data =
+ <>
  <InfoElements.ActivityContainer> 
  <InfoElements.OneActivityContainer>
      <InfoElements.IconContainer>
@@ -43,6 +48,100 @@ import { RiExchangeFundsLine} from "react-icons/ri";
      </InfoElements.CardParagraph>
  </InfoElements.OneActivityContainer>
  </InfoElements.ActivityContainer>
+ <InfoElements.Divider className='svgCenter'/>
+ <InfoElements.SectionTitle darkText={true}> Our Solutions</InfoElements.SectionTitle>
+ <InfoElements.ActivityContainer>
+ <InfoElements.OneActivityContainer>
+     <InfoElements.IconContainer>
+     <FaFileContract  color='rgb(34 131 164)' size='8em'/>
+     </InfoElements.IconContainer>
+     <InfoElements.CardTitle>
+         Equity Evaluation
+     </InfoElements.CardTitle>
+     <InfoElements.CardParagraph>
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     </InfoElements.CardParagraph>
+ </InfoElements.OneActivityContainer>
+ <InfoElements.OneActivityContainer>
+     <InfoElements.IconContainer>
+     <VscLightbulbAutofix  color='rgb(34 131 164)' size='8em'/>
+     </InfoElements.IconContainer>
+     <InfoElements.CardTitle>
+         Opportunity Reformation
+     </InfoElements.CardTitle>
+     <InfoElements.CardParagraph>
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     </InfoElements.CardParagraph>
+ </InfoElements.OneActivityContainer>
+ </InfoElements.ActivityContainer>
+ <InfoElements.Divider className='svgCenter'/>
+ <InfoElements.SectionTitle darkText={true}> Skaflic Uniqueness</InfoElements.SectionTitle>
+ <InfoElements.ActivityContainer>
+ <InfoElements.OneActivityContainer>
+     <InfoElements.IconContainer>
+     <FaFileInvoiceDollar  color='rgb(34 131 164)' size='8em'/>
+     </InfoElements.IconContainer>
+     <InfoElements.CardTitle>
+         Online Financial
+     </InfoElements.CardTitle>
+     <InfoElements.CardParagraph>
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     </InfoElements.CardParagraph>
+ </InfoElements.OneActivityContainer>
+ <InfoElements.OneActivityContainer>
+     <InfoElements.IconContainer>
+     <RiExchangeDollarLine  color='rgb(34 131 164)' size='8em'/>
+     </InfoElements.IconContainer>
+     <InfoElements.CardTitle>
+         Automated Transaction
+     </InfoElements.CardTitle>
+     <InfoElements.CardParagraph>
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     </InfoElements.CardParagraph>
+ </InfoElements.OneActivityContainer>
+ <InfoElements.OneActivityContainer>
+     <InfoElements.IconContainer>
+     <BsCoin  color='rgb(34 131 164)' size='8em'/>
+     </InfoElements.IconContainer>
+     <InfoElements.CardTitle>
+         Stable coin
+     </InfoElements.CardTitle>
+     <InfoElements.CardParagraph>
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     </InfoElements.CardParagraph>
+ </InfoElements.OneActivityContainer>
+ <InfoElements.OneActivityContainer>
+     <InfoElements.IconContainer>
+     <FaWatchmanMonitoring  color='rgb(34 131 164)' size='8em'/>
+     </InfoElements.IconContainer>
+     <InfoElements.CardTitle>
+         Store Monitoring
+     </InfoElements.CardTitle>
+     <InfoElements.CardParagraph>
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     </InfoElements.CardParagraph>
+ </InfoElements.OneActivityContainer>
+ <InfoElements.OneActivityContainer>
+     <InfoElements.IconContainer>
+     <CgListTree  color='rgb(34 131 164)' size='8em'/>
+     </InfoElements.IconContainer>
+     <InfoElements.CardTitle>
+         ICO Release Structure
+     </InfoElements.CardTitle>
+     <InfoElements.CardParagraph>
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     CardParagraph1 CardParagraph1 CardParagraph1 CardParagraph1
+     </InfoElements.CardParagraph>
+ </InfoElements.OneActivityContainer>
+ </InfoElements.ActivityContainer>
+ </>
+
 const tokenAndContract =
 <>
         <StyledTable.TableWrapper >

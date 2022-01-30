@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 import { Link as LinkS } from "react-scroll";
 export const LandingContainer = styled.div`
-  background: #37474f;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,7 +84,7 @@ export const LandingContent = styled.div`
 `;
 
 export const LandingH2 = styled.h2`
- color:${({isStrong})=>(isStrong ? `rgb(80 198 201)`:`#fff`)};
+ color:${({isStrong})=>(isStrong ? `rgb(80 198 201)`:`#2283a4`)};
   font-size: 32px;
   text-align: center;
   font-family: Montserrat, sans-serif;
@@ -115,7 +115,7 @@ export const LandingStrong = styled.strong`
 `;
 export const LandingP = styled.p`
   margin-top: 24px;
-  color: #fff;
+  color: #000;
   font-size: 24px;
   text-align: center;
   max-width: 600px;
