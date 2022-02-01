@@ -25,8 +25,8 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="road_map" onClick={toggle}>
             Road Map
           </SidebarLink>
-          <SidebarLink to="TokenEconomics" onClick={toggle}>
-          Token Economics
+          <SidebarLink to="TokenUtility" onClick={toggle}>
+          Token Utility
           </SidebarLink>
           <SidebarLink to="team" onClick={toggle}>
             Team

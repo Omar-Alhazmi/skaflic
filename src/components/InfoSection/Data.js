@@ -146,7 +146,7 @@ const data =
         </InfoElements.ActivityContainer>
     </>
 
-const TokenEconomics =
+const TokenUtility =
     <>
         <InfoElements.SectionTitle darkText={true}>Token Utility</InfoElements.SectionTitle>
         <InfoElements.ActivityContainer>
@@ -253,9 +253,9 @@ export const section_1 = {
     lightTextDesc: false,
 };
 export const section_4 = {
-    id: 'TokenEconomics',
+    id: 'TokenUtility',
     lightBg: true,
-    cardData: TokenEconomics,
+    cardData: TokenUtility,
     lightText: false,
     lightTextDesc: false
 };
