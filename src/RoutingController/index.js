@@ -10,7 +10,6 @@ import RoadMapSection from '../components/RoadMapSection';
 import Navbar from "../components/Navbar";
 import Services from "../components/Services";
 import Sidebar from "../components/Sidebar";
-// import TokenAndContract from '../components/TokenAndContract';
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -24,9 +23,8 @@ const Home = () => {
       <LandingPage />
       <InfoSection {...section_1}/>
       <RoadMapSection/>
-      <Services/>
-      {/* <TokenAndContract/> */}
       <InfoSection {...section_4}/>
+      <Services/>
       <InfoSection {...section_5}/>
 
       <Footer/>

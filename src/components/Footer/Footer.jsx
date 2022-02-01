@@ -2,80 +2,145 @@ import React from 'react'
 import * as FooterStyle from './StyledFooter';
 import { animateScroll as scroll } from 'react-scroll'
 import {
-    FaLinkedin,
-    FaTwitter,
-    FaYoutube,
-  } from "react-icons/fa";
-  import {
-    BsDiscord,
-    BsTelegram,
-  } from "react-icons/bs";
+  FaTwitter,
+  FaYoutube,
+  FaTelegram,
+  FaDiscord
+
+} from "react-icons/fa";
+import {
+  VscMail,
+  VscHome,
+} from "react-icons/vsc";
 import Logo from '../../images/mainLogo.png'
+import ECM_TOKEN from '../../Fils/ECM_TOKEN.pdf';
 
 const Footer = () => {
-    const toggleHome = () => {
-        scroll.scrollToTop();
-    };
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
 
-    return (
-        <FooterStyle.FooterContainer>
-            <FooterStyle.FooterWrap>
-                <FooterStyle.FooterLinksContainer>
-                    <FooterStyle.FooterLinksWrapper>
-                    <FooterStyle.FooterLinkItems>
-              <FooterStyle.FooterLinkTitle>About</FooterStyle.FooterLinkTitle>
-              <FooterStyle.FooterLink to="/">Our base of operations</FooterStyle.FooterLink>
-              <FooterStyle.FooterLink to="/">Buraidah, Al Qassim, Saudi Arabia</FooterStyle.FooterLink>
-              <FooterStyle.FooterLink to="/">Our company mission</FooterStyle.FooterLink>
-              <FooterStyle.FooterLink to="/">To ensure stability, access and, opportunity to all investors.</FooterStyle.FooterLink>
-              <FooterStyle.FooterLink to="/">Terms of Service</FooterStyle.FooterLink>
-            </FooterStyle.FooterLinkItems>
-            <FooterStyle.FooterLinkItems>
-              <FooterStyle.FooterLinkTitle>Contact Us </FooterStyle.FooterLinkTitle>
-              <FooterStyle.FooterLink to="/">Contact</FooterStyle.FooterLink>
-              <FooterStyle.FooterLink to="/">Support</FooterStyle.FooterLink>
-              <FooterStyle.FooterLink to="/">Destinations</FooterStyle.FooterLink>
-              <FooterStyle.FooterLink to="/">Sponserships</FooterStyle.FooterLink>
-            </FooterStyle.FooterLinkItems>
-          </FooterStyle.FooterLinksWrapper>
+  return (
+    <>
+    <FooterStyle.FooterContainer>
+      <FooterStyle.FooterWrap>
+        <FooterStyle.FooterLinksColumns>
           <FooterStyle.FooterLinksWrapper>
-            <FooterStyle.FooterLinkItems>
-              <FooterStyle.FooterLinkTitle>Social Media </FooterStyle.FooterLinkTitle>
-              <FooterStyle.FooterLinkSocial target="_blank"  to="https://t.me/skaflicofficial">Telegram</FooterStyle.FooterLinkSocial>
-              <FooterStyle.FooterLinkSocial target="_blank"  to="https://discordapp.com/users/913029021321818153/">Discord</FooterStyle.FooterLinkSocial>
-              <FooterStyle.FooterLinkSocial target="_blank"  to="https://www.youtube.com/">Youtube </FooterStyle.FooterLinkSocial>
-              <FooterStyle.FooterLinkSocial target="_blank"  to="https://twitter.com/SkaflicOfficial">Twitter</FooterStyle.FooterLinkSocial>
-            </FooterStyle.FooterLinkItems>
-                    </FooterStyle.FooterLinksWrapper>
-                </FooterStyle.FooterLinksContainer>
-                <FooterStyle.SocialMedia>
-          <FooterStyle.SocialMediaWrap>
-            <FooterStyle.SocialLogo to="/" onClick={toggleHome}><FooterStyle.LogoFooter src={Logo} alt="Logo"/></FooterStyle.SocialLogo>
-            <FooterStyle.WebsiteRights>
-            SKAFLIC © {new Date().getFullYear()} All rights reserved
-            </FooterStyle.WebsiteRights>
-            <FooterStyle.SocialIcons>
-              <FooterStyle.SocialIconLink href="https://t.me/skaflicofficial" target="_blank" aria-label="Facebook">
-                <BsTelegram />
-              </FooterStyle.SocialIconLink>
-              <FooterStyle.SocialIconLink href="https://discordapp.com/users/913029021321818153/" target="_blank" aria-label="Instagram">
-                <BsDiscord />
-              </FooterStyle.SocialIconLink>
-              <FooterStyle.SocialIconLink href="https://www.youtube.com/" target="_blank" aria-label="Youtube">
-                <FaYoutube />
-              </FooterStyle.SocialIconLink>
-              <FooterStyle.SocialIconLink href="https://twitter.com/SkaflicOfficial" target="_blank" aria-label="Twitter">
-                <FaTwitter />
-              </FooterStyle.SocialIconLink>
-              <FooterStyle.SocialIconLink href="https://www.linkedin.com/" target="_blank" aria-label="Linkedin">
-                <FaLinkedin />
-              </FooterStyle.SocialIconLink>
-            </FooterStyle.SocialIcons>
-          </FooterStyle.SocialMediaWrap>
-        </FooterStyle.SocialMedia>
-            </FooterStyle.FooterWrap>
-        </FooterStyle.FooterContainer>
-    );
+          <FooterStyle.SocialLogo to="/" onClick={toggleHome}>
+            <FooterStyle.FooterLogo src={Logo} alt='Logo'/>
+            </FooterStyle.SocialLogo>
+            <FooterStyle.FooterLinkTitle>
+              <VscMail color='rgb(78 199 204)' size={25} className='icon-margin' />
+              <span>Contact</span>
+            </FooterStyle.FooterLinkTitle>
+            <FooterStyle.FooterLink href="mailto:skaflic@gmail.com">skaflic@gmail.com</FooterStyle.FooterLink>
+            <FooterStyle.FooterParagraph >0123456789</FooterStyle.FooterParagraph>
+          </FooterStyle.FooterLinksWrapper>
+        </FooterStyle.FooterLinksColumns>
+        <FooterStyle.FooterLinksColumns>
+                    <FooterStyle.FooterLinksWrapper>
+              <FooterStyle.FooterLinkTitle>
+                <VscHome  color='rgb(78 199 204)' size={25} className='icon-margin' />
+                <span>Address</span>
+                </FooterStyle.FooterLinkTitle>
+              <FooterStyle.FooterParagraph >~~~~~~ Dubai</FooterStyle.FooterParagraph>
+              <FooterStyle.FooterParagraph >UAE</FooterStyle.FooterParagraph>
+              </FooterStyle.FooterLinksWrapper>
+      </FooterStyle.FooterLinksColumns>
+        <FooterStyle.FooterLinksColumns>
+          <FooterStyle.FooterLinksWrapper>
+            <FooterStyle.FooterHedLine>
+              Community
+               </FooterStyle.FooterHedLine>
+               <FooterStyle.FooterLinkSocialList>
+                 <FooterStyle.FooterLinkSocialListItem>
+                 <FooterStyle.FooterLink target="_blank" href="https://t.me/skaflicofficial">
+                   <FooterStyle.FooterLinkSocialSpan>
+                     <FooterStyle.SocialIcons><FaTelegram /></FooterStyle.SocialIcons>
+                     Telegram
+                   </FooterStyle.FooterLinkSocialSpan>
+                   </FooterStyle.FooterLink>
+                 </FooterStyle.FooterLinkSocialListItem>
+                 <FooterStyle.FooterLinkSocialListItem>
+                 <FooterStyle.FooterLink target="_blank" href="https://discordapp.com/users/913029021321818153/">
+                 <FooterStyle.FooterLinkSocialSpan>
+                     <FooterStyle.SocialIcons><FaDiscord /></FooterStyle.SocialIcons>
+                     Discord
+                   </FooterStyle.FooterLinkSocialSpan>
+                   </FooterStyle.FooterLink>
+                   </FooterStyle.FooterLinkSocialListItem>
+                   <FooterStyle.FooterLinkSocialListItem>
+                   <FooterStyle.FooterLink target="_blank" href="https://www.youtube.com/">
+                   <FooterStyle.FooterLinkSocialSpan>
+                     <FooterStyle.SocialIcons><FaYoutube /></FooterStyle.SocialIcons>
+                     Youtube
+                   </FooterStyle.FooterLinkSocialSpan>
+                      </FooterStyle.FooterLink>
+                   </FooterStyle.FooterLinkSocialListItem>
+                   <FooterStyle.FooterLinkSocialListItem>
+                   <FooterStyle.FooterLink target="_blank" href="https://twitter.com/SkaflicOfficial">
+                   <FooterStyle.FooterLinkSocialSpan>
+                     <FooterStyle.SocialIcons><FaTwitter /></FooterStyle.SocialIcons>
+                     Twitter
+                   </FooterStyle.FooterLinkSocialSpan>
+                     </FooterStyle.FooterLink>
+                   </FooterStyle.FooterLinkSocialListItem>
+               </FooterStyle.FooterLinkSocialList>
+          </FooterStyle.FooterLinksWrapper>
+        </FooterStyle.FooterLinksColumns>
+        <FooterStyle.FooterLinksColumns>
+          <FooterStyle.FooterLinksWrapper>
+            <FooterStyle.FooterHedLine>
+            Legal
+               </FooterStyle.FooterHedLine>
+               <FooterStyle.FooterLinkSocialList>
+                 <FooterStyle.FooterLinkSocialListItem>
+                 <FooterStyle.FooterLink href={ECM_TOKEN} download>
+                   <FooterStyle.FooterLinkSocialSpan>
+                     Whitepaper
+                   </FooterStyle.FooterLinkSocialSpan>
+                   </FooterStyle.FooterLink>
+                 </FooterStyle.FooterLinkSocialListItem>
+                 <FooterStyle.FooterLinkSocialListItem>
+                 <FooterStyle.FooterLink target="_blank" href="#">
+                 <FooterStyle.FooterLinkSocialSpan>
+                     Terms of use
+                   </FooterStyle.FooterLinkSocialSpan>
+                   </FooterStyle.FooterLink>
+                   </FooterStyle.FooterLinkSocialListItem>
+                   <FooterStyle.FooterLinkSocialListItem>
+                   <FooterStyle.FooterLink target="_blank" href="#">
+                   <FooterStyle.FooterLinkSocialSpan>
+                     AML & KYC
+                   </FooterStyle.FooterLinkSocialSpan>
+                      </FooterStyle.FooterLink>
+                   </FooterStyle.FooterLinkSocialListItem>
+                   <FooterStyle.FooterLinkSocialListItem>
+                   <FooterStyle.FooterLink target="_blank" href="#">
+                   <FooterStyle.FooterLinkSocialSpan>
+                     Data Protection Policy
+                   </FooterStyle.FooterLinkSocialSpan>
+                     </FooterStyle.FooterLink>
+                   </FooterStyle.FooterLinkSocialListItem>
+                   <FooterStyle.FooterLinkSocialListItem>
+                   <FooterStyle.FooterLink target="_blank" href="#">
+                   <FooterStyle.FooterLinkSocialSpan>
+                   FAQ
+                   </FooterStyle.FooterLinkSocialSpan>
+                     </FooterStyle.FooterLink>
+                   </FooterStyle.FooterLinkSocialListItem>
+               </FooterStyle.FooterLinkSocialList>
+          </FooterStyle.FooterLinksWrapper>
+        </FooterStyle.FooterLinksColumns>
+      </FooterStyle.FooterWrap>
+    </FooterStyle.FooterContainer>
+          <FooterStyle.Footer>
+            <FooterStyle.FooterCopyright>
+                        SKAFLIC © {new Date().getFullYear()} All rights reserved
+            </FooterStyle.FooterCopyright>
+        </FooterStyle.Footer>
+        </>
+  );
 };
 
 export default Footer;

@@ -56,10 +56,10 @@ const toggleHome=()=>{
               <NavLinks to="road_map" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Road Map</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="team" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Team</NavLinks>
+              <NavLinks to="TokenEconomics" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Token Economics</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="token_and_contract" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Token and contract</NavLinks>
+              <NavLinks to="team" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Team</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="ico" smooth={true} duration={500} spy={true} exact='true' offset={-80}>ICO</NavLinks>

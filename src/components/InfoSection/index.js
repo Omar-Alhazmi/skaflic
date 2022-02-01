@@ -32,9 +32,6 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dark
         <>
           <InfoElements.InfoContainer lightBg={lightBg} lightText={false} darkText={true} id={id}>
             <InfoElements.Divider className='svgCenter'/>
-
-            <InfoElements.SectionTitle darkText={true}> Skaflic Activity</InfoElements.SectionTitle>
-
             {cardData}
           </InfoElements.InfoContainer>
         </>

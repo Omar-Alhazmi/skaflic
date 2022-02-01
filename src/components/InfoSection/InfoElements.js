@@ -21,6 +21,8 @@ export const ActivityContainer = styled.div`
     max-width:1100px;
     min-height: 450px;
     z-index: 1;
+    background: #fff;
+    border-radius: 3%;
     @media screen and (min-width:768px){
     flex-direction: row;
     align-items: flex-start;
@@ -105,7 +107,6 @@ export const InfoContainer2 = styled.div`
     color: #fff;
     z-index:1;
         position: relative;
-        margin-bottom: 350px;
         box-shadow: 0px 0px 40px rgb(0 0 0 / 80%);
     background:${({ lightBg }) => (lightBg ? '#f9f9f9' : '#7c8a95')};
     :before{

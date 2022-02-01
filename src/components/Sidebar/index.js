@@ -25,11 +25,11 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="road_map" onClick={toggle}>
             Road Map
           </SidebarLink>
+          <SidebarLink to="TokenEconomics" onClick={toggle}>
+          Token Economics
+          </SidebarLink>
           <SidebarLink to="team" onClick={toggle}>
             Team
-          </SidebarLink>
-          <SidebarLink to="token_and_contract" onClick={toggle}>
-            Token and contract
           </SidebarLink>
           <SidebarLink to="ico" onClick={toggle}>
             ICO

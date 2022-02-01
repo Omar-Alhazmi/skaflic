@@ -72,6 +72,9 @@ export const LandingWrapper =styled.div`
   justify-content:center;
   position: relative;
 min-height: 1100px;
+@media (max-width: 575.98px){
+margin: 41px auto 0;
+}
 `
 export const LandingContent = styled.div`
   z-index: 3;
